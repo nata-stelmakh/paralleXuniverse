@@ -108,11 +108,12 @@ color: #666;
   
   /* The navigation menu links */
   .sidenav a {
-    padding: 6px 8px 6px 16px;
+    padding: 8px 8px 6px 32px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
     display: block;
+    transition: 0.3s;
   }
   
   /* When you mouse over the navigation links, change their color */
@@ -120,8 +121,15 @@ color: #666;
     color: #f1f1f1;
   }
   
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
   /* Style page content */
-  .main {
+  #main {
     margin-left: 160px; /* Same as the width of the sidebar */
     padding: 0px 10px;
   }
